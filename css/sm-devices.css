@@ -1,0 +1,91 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) 
+{
+
+#main-menu nav
+{
+    display:none;
+}
+
+#hamburger-menu
+{
+   display:block;
+   color: black;
+   size: 5x; 
+   justify-self: end;
+   padding-right: 20px;
+   align-self: center;
+}
+
+#hero
+{
+    grid-template-columns: 1fr;
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.699), rgba(0, 0, 0, 0)), url("../img/spaghetti.png");
+    background-position-x: -60%;
+    background-size: cover;
+    justify-items: center;
+}
+
+h1
+{
+    font-size:2.5rem;
+}
+
+#hero-caption
+{
+    justify-items: center;
+}
+
+#hero-caption p
+{
+    text-align:center;
+}
+
+#hero a
+{
+    display:block;
+}
+
+#spaghetti-section
+{
+    display:none; 
+}
+
+#hero-buttons
+{
+    display:inline-block;
+    text-align: center; 
+}
+
+#about
+{
+    grid-template-columns: 1fr;
+}
+
+#about-writing h2
+{
+    text-align: center;
+}
+
+#about-writing p
+{
+    text-align:justify;
+}
+
+#about-writing a
+{
+    margin: 30px 50px 0 50px;
+}
+
+
+#recipe-categories
+{
+    grid-template-columns: 1fr;
+}
+
+.recipe-categories-section
+{
+    margin-bottom: 30px;
+}
+
+}
