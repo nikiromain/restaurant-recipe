@@ -159,13 +159,22 @@ h2
 #about
 {
     background-color: white;
-    padding: 85px 25px;
+    margin: 135px 0px 55px 0;
+    padding-top: 50px;
 }
 
 #about-writing a
 {
     display:inline-block;
+    
 }
+
+#about-writing 
+{
+    padding: 50px 205px 50px 50px ;
+    text-align:justify;
+}
+
 
 
 /****Recipe Categories****/
@@ -232,4 +241,124 @@ h2
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/***Healthy Food***/
+
+#healthy-food
+{
+    margin: 55px 175px;
+    border-radius: 35px;
+    line-height: 1.7;
+    /*padding: 50px 50px 50px ;*/
+    background-color: #26704F;
+}
+
+h3
+{
+    font-family: Montserrat;
+    margin-bottom: 9px; 
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+#healthy-img
+{
+    background-image: url("../img/healthy-foods.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 35px 0 0 35px;
+}
+
+#health-para
+{
+    padding: 50px 50px 50px ;
+}
+
+#health-para a
+{
+    display: inline-block;
+    margin-top: 20px ;
+    text-decoration: none;
+    color: white;
+}
+
+#health-para a:hover
+{
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+/*Newsletter*/
+
+#newsletter
+{
+    background-image: url("../img/newsletter.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 55px 0 0 0;
+    padding: 130px 15px;
+}
+
+#newsletter-section
+{
+    background-color: rgba(253, 253, 253, 0.418);
+    padding: 25px 25px 65px;
+    border-radius: 18px;
+}
+
+#newsletter-form input[type]:hover
+{
+    outline: 1px solid black;
+}
+
+#newsletter-form label
+{
+    display:block;
+    margin: 12px 0 7px 0;
+
+}
+
+#newsletter-form input[type]
+{
+    padding: 22px 350px 18px 14px;
+    border-radius:38px 0 0 38px;
+    outline: none;
+    border: none;
+    text-align:left;
+    margin-left:-1px;
+}
+
+
+#newsletter-form button
+{
+    padding: 17px 42px;
+    border-radius:38px;
+    margin-left:-49px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #F8B735;
+}
+
+#newsletter-form button:hover
+{
+    background-color: #2B898B ;
+}
+
+/* Footer */ 
+
+footer
+{
+    padding: 17px 0;
+    text-align:center;
+    color: #F88E28;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+
+
+
 
