@@ -61,6 +61,7 @@ h1
     text-align: center; 
 }
 
+
 /******Who We Are****/
 #about
 {
@@ -112,6 +113,33 @@ h1
     grid-template-columns: 1fr;
     margin: 55px 35px;
     
+}
+
+/********Qucik Fixes*****/
+#quick-fixes
+{
+    grid-template-columns: 1fr;
+}
+
+.quick-fixes-recipes
+{
+    margin-bottom: 95px;
+}
+
+
+/****Testimonials****/ 
+
+#testimonials
+{
+    grid-template-columns: 1fr;
+    margin: 55px 35px;
+}
+
+#testimonials-para
+{
+
+    border-radius: 35px;
+   
 }
 
 /******Newsletter****/

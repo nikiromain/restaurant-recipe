@@ -14,6 +14,7 @@ body
     background-position-x: center;
     font-family: Poppins;
     line-height:1.7;
+    
 }
 
 header img
@@ -94,7 +95,7 @@ h2
 /****HERO****/
 #hero
 {
-    height: 90vh;
+    height: 80vh;
 }
 
 #spaghetti-section
@@ -160,7 +161,7 @@ h2
 {
     background-color: white;
     margin: 135px 0px 55px 0;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 #about-writing a
@@ -171,7 +172,7 @@ h2
 
 #about-writing 
 {
-    padding: 50px 205px 50px 50px ;
+    padding: 0 175px 50px 50px ;
     text-align:justify;
 }
 
@@ -184,6 +185,7 @@ h2
     border-radius: 33px;
     width: 285px;
     height: 385px;
+    margin-bottom: 55px;
 }
 
 #recipe-categories a
@@ -244,20 +246,20 @@ h2
 
 /***Healthy Food***/
 
-#healthy-food
+#healthy-food , #testimonials
 {
-    margin: 55px 175px;
+    margin: 55px 175px 70px 175px;
     border-radius: 35px;
     line-height: 1.7;
     /*padding: 50px 50px 50px ;*/
     background-color: #26704F;
+
 }
 
 h3
 {
     font-family: Montserrat;
     margin-bottom: 9px; 
-    color: white;
     font-weight: bold;
     font-size: 1.7rem;
 }
@@ -271,7 +273,7 @@ h3
     border-radius: 35px 0 0 35px;
 }
 
-#health-para
+#health-para, #testimonials-para
 {
     padding: 50px 50px 50px ;
 }
@@ -279,7 +281,7 @@ h3
 #health-para a
 {
     display: inline-block;
-    margin-top: 20px ;
+    margin-top: 37px ;
     text-decoration: none;
     color: white;
 }
@@ -288,6 +290,64 @@ h3
 {
     animation: pulse;
     animation-duration: 2s;
+}
+
+/*** Quick Fixes ***/
+
+#quick-fixes
+{
+    padding: 55px ; 
+}
+
+.quick-fixes-recipes
+{
+    padding: 25px 15px 45px 15px;
+    width: 230px;
+    height: 200px;
+    border-radius : 35px;
+    text-align:center;
+    border: 2px solid #F88E28;
+} 
+
+.quick-fixes-recipes img
+{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: -85px;
+}
+
+/***** Testinmonails ****/
+#testimonials-para
+{
+    background-color: #2B898B;
+    border-radius: 35px 0 0 35px;
+    color:white;
+}
+
+#testimonials a
+{
+    display: inline-block;
+    margin-top: 37px ;
+    text-decoration: none;
+    color: #F88E28;
+}
+
+#testimonials a:hover
+{
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+
+#testimonials-img
+{
+    background-image: url("../img/testimonials.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    border-radius: 0 35px 35px 0;
 }
 
 /*Newsletter*/
@@ -324,7 +384,7 @@ h3
 
 #newsletter-form input[type]
 {
-    padding: 22px 350px 18px 14px;
+    padding: 22px 350px 17px 14px;
     border-radius:38px 0 0 38px;
     outline: none;
     border: none;
@@ -356,7 +416,7 @@ footer
     padding: 17px 0;
     text-align:center;
     color: #F88E28;
-    background-color: rgba(255, 255, 255, 0.473);
+    
 }
 
 

@@ -130,12 +130,17 @@ margin-left: 46px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.grid-col-5
+{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 .grid-gap-col-x-sm
 {
     column-gap: 8px;
 }
 
-.grid-gap-col-x-sm
+.grid-gap-col-sm
 {
     column-gap: 16px;
 }
